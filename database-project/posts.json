@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "5f4cacff95911830c455c0ad"
+  },
+  "postTitle": "HELLO GAMER VIEW!",
+  "postSubject": "gamerview",
+  "postMessage": "I'm so excited to see this website up and running it makes me so happy to have a place where people can talk about video games in a constructive critical manner",
+  "user_id": {
+    "$oid": "5f4bfc4495911830c455c0ac"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4cae1d95911830c455c0af"
+  },
+  "postTitle": "Cool stuff",
+  "postSubject": "gamerview",
+  "postMessage": "I like how clean this website is it makes it so easy to post your ideas",
+  "user_id": {
+    "$oid": "5f4cadd695911830c455c0ae"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4e01cd492b001e00c4d31b"
+  },
+  "postTitle": "Gamers mindset",
+  "postSubject": "community",
+  "postMessage": "I hate how some gamers think they're better than everyone else it ruins the experience for everyone else and gives gamers a bad name",
+  "user_id": {
+    "$oid": "5f4cdeec6ec2062a0cacc61e"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4ea4c259c8d23154d0888b"
+  },
+  "postTitle": "ARGH!",
+  "postSubject": "relationships",
+  "postMessage": "My boyfriend doesn't believe that girls can play games even though I beat him at every game we play. It's SO FRUSTRATING!!!!!!!!!!!!",
+  "user_id": {
+    "$oid": "5f4ea44b59c8d23154d0888a"
+  },
+  "__v": 0
+}]
