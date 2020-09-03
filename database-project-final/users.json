@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "5f4bfc4495911830c455c0ac"
+  },
+  "favorites": [
+    "5f4cae1d95911830c455c0af",
+    "5f4ea4c259c8d23154d0888b"
+  ],
+  "posts": [],
+  "name": "Hillel",
+  "email": "hillel@gmail.com",
+  "password": "$2b$10$MkQWaVR08KJOD76ITSCgWeWnnQs5xfEpOIoidGc3r7CSFeDA/53cu",
+  "createdAt": {
+    "$date": "2020-08-30T19:21:40.485Z"
+  },
+  "__v": 42
+},{
+  "_id": {
+    "$oid": "5f4cadd695911830c455c0ae"
+  },
+  "favorites": [
+    ""
+  ],
+  "posts": [],
+  "name": "Larry",
+  "email": "larry@gmail.com",
+  "password": "$2b$10$.0j8KqjAubfxmJ4m7c6TOOLhdFg5VCYLi2Lfv1PZN73RvnaMCSlZK",
+  "createdAt": {
+    "$date": "2020-08-31T07:59:18.495Z"
+  },
+  "__v": 12
+},{
+  "_id": {
+    "$oid": "5f4cdeec6ec2062a0cacc61e"
+  },
+  "favorites": [
+    ""
+  ],
+  "posts": [],
+  "name": "John",
+  "email": "john@gmail.com",
+  "password": "$2b$10$pN.BiAXOBWXkTRUhW8JXM.d3DMZJsJpKAfnSuJsxylkcmJ9UrX8jO",
+  "createdAt": {
+    "$date": "2020-08-31T11:28:44.699Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f4ea44b59c8d23154d0888a"
+  },
+  "favorites": [
+    ""
+  ],
+  "posts": [],
+  "name": "Stacy",
+  "email": "stacy@gmail.com",
+  "password": "$2b$10$MQLkGHdAKMhd5dTIZGTle.3E0N0ktSYXxH5a4Wpsh8iB94oMEUHpm",
+  "createdAt": {
+    "$date": "2020-09-01T19:43:07.561Z"
+  },
+  "__v": 0
+}]

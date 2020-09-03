@@ -1,0 +1,63 @@
+main {
+  background: black;
+  color: greenyellow;
+}
+.post {
+  border: green 1px solid;
+
+  padding-bottom: 10px;
+  background: gray;
+  margin: auto;
+  margin-top: 35px;
+  position: relative;
+  float: left;
+}
+.subject {
+  font-size: 0.7rem;
+  color: black;
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.deleteButton {
+  float: right;
+  color: red;
+}
+.editButton {
+  float: right;
+  color: orange;
+}
+.favorite {
+  float: right;
+}
+.title {
+  text-align: center;
+}
+.message {
+  color: aqua;
+  font-size: 1rem;
+}
+.collapsedshow {
+  display: none;
+}
+.non-collapsed {
+  display: flex;
+}
+
+.form-inline .form-control {
+  width: 200px;
+}
+@media (max-width: 449px) {
+  .non-collapsed .form-control {
+    width: 150px;
+  }
+}
+@media (min-width: 992px) {
+  .non-collapsed {
+    display: none;
+  }
+  .collapsedshow {
+    display: flex;
+  }
+}
