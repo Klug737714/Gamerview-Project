@@ -37,22 +37,24 @@ const Post = ({ post, user, favoritePost }) => {
           </Link>
         </React.Fragment>
       )}
-      {window.location.pathname === "/" && userService.getCurrentUser() && (
-        <button
-          className="favorite btn text-warning"
-          onClick={() => {
-            favoritePost(post._id);
-          }}
-        >
-          {user.favorites && user.favorites.includes(post._id) && (
-            <i className="fas fa-star"></i>
-          )}
-          {user.favorites && !user.favorites.includes(post._id) && (
-            <i className="far fa-star"></i>
-          )}
-          {!user.favorites && <i className="far fa-star"></i>}
-        </button>
-      )}
+      {(window.location.pathname === "/" ||
+        window.location.pathname === "/favorited") &&
+        userService.getCurrentUser() && (
+          <button
+            className="favorite btn text-warning"
+            onClick={() => {
+              favoritePost(post._id);
+            }}
+          >
+            {user.favorites && user.favorites.includes(post._id) && (
+              <i className="fas fa-star"></i>
+            )}
+            {user.favorites && !user.favorites.includes(post._id) && (
+              <i className="far fa-star"></i>
+            )}
+            {!user.favorites && <i className="far fa-star"></i>}
+          </button>
+        )}
       <br />
       <span className="message">{post.postMessage}</span>
       <span className="subject">{post.postSubject}</span>

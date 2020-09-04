@@ -16,6 +16,7 @@ import MyPosts from "./components/myposts";
 import CreatePost from "./components/create-post";
 import EditPost from "./components/edit-post";
 import ProtectedRoute from "./components/common/protected-route";
+import Favorites from "./components/favorites";
 
 class App extends Component {
   state = {};
@@ -49,7 +50,7 @@ class App extends Component {
           <Switch>
             <ProtectedRoute exact path="/my-posts" component={MyPosts} />
             <ProtectedRoute path="/my-posts/edit/:id" component={EditPost} />
-
+            <ProtectedRoute path="/favorited" component={Favorites} />
             <ProtectedRoute path="/create-post" component={CreatePost} />
             <Route
               path="/"

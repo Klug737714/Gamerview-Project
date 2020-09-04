@@ -29,6 +29,9 @@ export function getMyPosts() {
 export function createPost(post) {
   return http.post(`${apiUrl}/posts`, post);
 }
+export function getFavoritedPosts() {
+  return http.get(`${apiUrl}/users/favorited`);
+}
 export default {
   createPost,
   getMyPosts,
@@ -37,4 +40,5 @@ export default {
   deletePost,
   getAllPosts,
   getSearchPosts,
+  getFavoritedPosts,
 };

@@ -36,11 +36,18 @@ class NavbarHome extends Component {
               </NavLink>
             </li>
             {user && (
-              <li className="nav-item">
-                <NavLink className="nav-link text-warning" to="/my-posts">
-                  My Posts
-                </NavLink>
-              </li>
+              <React.Fragment>
+                <li className="nav-item">
+                  <NavLink className="nav-link text-light" to="/my-posts">
+                    My Posts
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink className="nav-link text-warning" to="/favorited">
+                    Favorites
+                  </NavLink>
+                </li>
+              </React.Fragment>
             )}
           </ul>
           <form className="collapsedshow">
