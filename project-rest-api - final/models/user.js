@@ -26,7 +26,7 @@ const userSchema = new mongoose.Schema({
   favorites: {
     type: [],
     required: false,
-    default: [],
+    default: null,
   },
   createdAt: { type: Date, default: Date.now },
   posts: Array,

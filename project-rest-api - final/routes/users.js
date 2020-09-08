@@ -10,6 +10,11 @@ const getPosts = async (postsArray) => {
   const posts = await Post.find({ id: { $in: postsArray } });
   return posts;
 };
+router.get("/favorited", auth, async (req, res) => {
+  const user = await User.findById(req.user._id);
+  const posts = await Post.find({ _id: user.favorites });
+  res.send(posts);
+});
 
 router.get("/:id", auth, async (req, res) => {
   const user = await User.findOne({ _id: req.params.id });

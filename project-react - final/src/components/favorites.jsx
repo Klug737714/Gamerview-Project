@@ -13,11 +13,8 @@ class Favorites extends Component {
     if (data.length > 0) {
       this.setState({ posts: data });
     }
-
-    if (this.state.user !== [] && (await userService.getCurrentUser())) {
-      const user = await getCurrentUsername();
-      this.setState({ user: user.data });
-    }
+    const user = await getCurrentUsername();
+    this.setState({ user: user.data });
   };
   favoritePost = async (postId) => {
     const newUser = await userService.favorite(postId);

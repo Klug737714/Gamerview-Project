@@ -2,10 +2,7 @@
   "_id": {
     "$oid": "5f4bfc4495911830c455c0ac"
   },
-  "favorites": [
-    "5f4cae1d95911830c455c0af",
-    "5f4ea4c259c8d23154d0888b"
-  ],
+  "favorites": [],
   "posts": [],
   "name": "Hillel",
   "email": "hillel@gmail.com",
@@ -13,13 +10,14 @@
   "createdAt": {
     "$date": "2020-08-30T19:21:40.485Z"
   },
-  "__v": 42
+  "__v": 30072
 },{
   "_id": {
     "$oid": "5f4cadd695911830c455c0ae"
   },
   "favorites": [
-    ""
+    "5f4ea4c259c8d23154d0888b",
+    "5f4e01cd492b001e00c4d31b"
   ],
   "posts": [],
   "name": "Larry",
@@ -28,14 +26,12 @@
   "createdAt": {
     "$date": "2020-08-31T07:59:18.495Z"
   },
-  "__v": 12
+  "__v": 14
 },{
   "_id": {
     "$oid": "5f4cdeec6ec2062a0cacc61e"
   },
-  "favorites": [
-    ""
-  ],
+  "favorites": [],
   "posts": [],
   "name": "John",
   "email": "john@gmail.com",
@@ -48,9 +44,7 @@
   "_id": {
     "$oid": "5f4ea44b59c8d23154d0888a"
   },
-  "favorites": [
-    ""
-  ],
+  "favorites": [],
   "posts": [],
   "name": "Stacy",
   "email": "stacy@gmail.com",
@@ -59,4 +53,17 @@
     "$date": "2020-09-01T19:43:07.561Z"
   },
   "__v": 0
+},{
+  "_id": {
+    "$oid": "5f57583c3cf3c634a87e1719"
+  },
+  "favorites": [],
+  "posts": [],
+  "name": "Mary",
+  "email": "mary@gmail.com",
+  "password": "$2b$10$NCOnqM9PRFFe9baxmp8NHOmL7IWQWyYwUhsxiCZjHnIWQPhqRj7Zy",
+  "createdAt": {
+    "$date": "2020-09-08T10:09:00.768Z"
+  },
+  "__v": 4
 }]
